@@ -1,11 +1,3 @@
-terraform {
-  backend "remote" {
-    organization = "hashicorp-rachel"
-    workspaces {
-      name = "sentinel-demo1"
-    }
-  }
-}
 
 provider "aws" {
   region                  = "us-west-2"
